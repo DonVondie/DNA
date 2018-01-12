@@ -1,0 +1,202 @@
+Part 1: SimpleStrand
+
+dna length = 320,160
+cutting at enzyme gaattc
+-----
+Class	                splicee	      recomb	time
+-----
+SimpleStrand:	            256	        331,410	0.004	# append calls = 90
+SimpleStrand:	            512	        342,930	0.004	# append calls = 90
+SimpleStrand:	          1,024	        365,970	0.006	# append calls = 90
+SimpleStrand:	          2,048	        412,050	0.010	# append calls = 90
+SimpleStrand:	          4,096	        504,210	0.009	# append calls = 90
+SimpleStrand:	          8,192	        688,530	0.009	# append calls = 90
+SimpleStrand:	         16,384	      1,057,170	0.005	# append calls = 90
+SimpleStrand:	         32,768	      1,794,450	0.020	# append calls = 90
+SimpleStrand:	         65,536	      3,269,010	0.010	# append calls = 90
+SimpleStrand:	        131,072	      6,218,130	0.043	# append calls = 90
+SimpleStrand:	        262,144	     12,116,370	0.048	# append calls = 90
+SimpleStrand:	        524,288	     23,912,850	0.071	# append calls = 90
+SimpleStrand:	      1,048,576	     47,505,810	0.171	# append calls = 90
+SimpleStrand:	      2,097,152	     94,691,730	0.158	# append calls = 90
+
+
+
+dna length = 4,639,221
+cutting at enzyme gaattc
+-----
+Class	                splicee	      recomb	time
+-----
+SimpleStrand:	            256	      4,800,471	0.061	# append calls = 1290
+SimpleStrand:	            512	      4,965,591	0.052	# append calls = 1290
+SimpleStrand:	          1,024	      5,295,831	0.047	# append calls = 1290
+SimpleStrand:	          2,048	      5,956,311	0.043	# append calls = 1290
+SimpleStrand:	          4,096	      7,277,271	0.040	# append calls = 1290
+SimpleStrand:	          8,192	      9,919,191	0.043	# append calls = 1290
+SimpleStrand:	         16,384	     15,203,031	0.053	# append calls = 1290
+SimpleStrand:	         32,768	     25,770,711	0.101	# append calls = 1290
+SimpleStrand:	         65,536	     46,906,071	0.195	# append calls = 1290
+SimpleStrand:	        131,072	     89,176,791	0.187	# append calls = 1290
+
+
+Part 2: 
+
+
+Data For Analysis Part 2: Finding Machine Max
+
+
+@SimpleStrand, 216M
+
+SimpleStrand:	            256	      4,800,471	0.115	# append calls = 1290
+SimpleStrand:	            512	      4,965,591	0.084	# append calls = 1290
+SimpleStrand:	          1,024	      5,295,831	0.090	# append calls = 1290
+SimpleStrand:	          2,048	      5,956,311	0.068	# append calls = 1290
+SimpleStrand:	          4,096	      7,277,271	0.063	# append calls = 1290
+SimpleStrand:	          8,192	      9,919,191	0.058	# append calls = 1290
+SimpleStrand:	         16,384	     15,203,031	0.095	# append calls = 1290
+SimpleStrand:	         32,768	     25,770,711	0.087	# append calls = 1290
+
+@SimpleStrand, 512M
+
+SimpleStrand:	            256	      4,800,471	0.041	# append calls = 1290
+SimpleStrand:	            512	      4,965,591	0.068	# append calls = 1290
+SimpleStrand:	          1,024	      5,295,831	0.105	# append calls = 1290
+SimpleStrand:	          2,048	      5,956,311	0.040	# append calls = 1290
+SimpleStrand:	          4,096	      7,277,271	0.073	# append calls = 1290
+SimpleStrand:	          8,192	      9,919,191	0.045	# append calls = 1290
+SimpleStrand:	         16,384	     15,203,031	0.223	# append calls = 1290
+SimpleStrand:	         32,768	     25,770,711	0.231	# append calls = 1290
+SimpleStrand:	         65,536	     46,906,071	0.223	# append calls = 1290
+
+@SimpleStrand, 1024M
+
+SimpleStrand:	            256	      4,800,471	0.052	# append calls = 1290
+SimpleStrand:	            512	      4,965,591	0.089	# append calls = 1290
+SimpleStrand:	          1,024	      5,295,831	0.084	# append calls = 1290
+SimpleStrand:	          2,048	      5,956,311	0.038	# append calls = 1290
+SimpleStrand:	          4,096	      7,277,271	0.085	# append calls = 1290
+SimpleStrand:	          8,192	      9,919,191	0.041	# append calls = 1290
+SimpleStrand:	         16,384	     15,203,031	0.111	# append calls = 1290
+SimpleStrand:	         32,768	     25,770,711	0.118	# append calls = 1290
+SimpleStrand:	         65,536	     46,906,071	0.299	# append calls = 1290
+SimpleStrand:	        131,072	     89,176,791	0.714	# append calls = 1290
+
+@SimpleStrand, 2048M
+SimpleStrand:	            256	      4,800,471	0.043	# append calls = 1290
+SimpleStrand:	            512	      4,965,591	0.061	# append calls = 1290
+SimpleStrand:	          1,024	      5,295,831	0.090	# append calls = 1290
+SimpleStrand:	          2,048	      5,956,311	0.038	# append calls = 1290
+SimpleStrand:	          4,096	      7,277,271	0.074	# append calls = 1290
+SimpleStrand:	          8,192	      9,919,191	0.053	# append calls = 1290
+SimpleStrand:	         16,384	     15,203,031	0.106	# append calls = 1290
+SimpleStrand:	         32,768	     25,770,711	0.307	# append calls = 1290
+SimpleStrand:	         65,536	     46,906,071	0.261	# append calls = 1290
+SimpleStrand:	        131,072	     89,176,791	0.366	# append calls = 1290
+SimpleStrand:	        262,144	    173,718,231	1.760	# append calls = 1290
+
+@SimpleStrand, 4096M
+SimpleStrand:	            256	      4,800,471	0.041	# append calls = 1290
+SimpleStrand:	            512	      4,965,591	0.076	# append calls = 1290
+SimpleStrand:	          1,024	      5,295,831	0.088	# append calls = 1290
+SimpleStrand:	          2,048	      5,956,311	0.042	# append calls = 1290
+SimpleStrand:	          4,096	      7,277,271	0.087	# append calls = 1290
+SimpleStrand:	          8,192	      9,919,191	0.043	# append calls = 1290
+SimpleStrand:	         16,384	     15,203,031	0.077	# append calls = 1290
+SimpleStrand:	         32,768	     25,770,711	0.119	# append calls = 1290
+SimpleStrand:	         65,536	     46,906,071	0.189	# append calls = 1290
+SimpleStrand:	        131,072	     89,176,791	0.571	# append calls = 1290
+SimpleStrand:	        262,144	    173,718,231	1.178	# append calls = 1290
+SimpleStrand:	        524,288	    342,801,111	4.280	# append calls = 1290
+
+@SimpleStrand, 8192M
+SimpleStrand:	            256	      4,800,471	0.039	# append calls = 1290
+SimpleStrand:	            512	      4,965,591	0.061	# append calls = 1290
+SimpleStrand:	          1,024	      5,295,831	0.084	# append calls = 1290
+SimpleStrand:	          2,048	      5,956,311	0.047	# append calls = 1290
+SimpleStrand:	          4,096	      7,277,271	0.077	# append calls = 1290
+SimpleStrand:	          8,192	      9,919,191	0.050	# append calls = 1290
+SimpleStrand:	         16,384	     15,203,031	0.084	# append calls = 1290
+SimpleStrand:	         32,768	     25,770,711	0.112	# append calls = 1290
+SimpleStrand:	         65,536	     46,906,071	0.192	# append calls = 1290
+SimpleStrand:	        131,072	     89,176,791	0.268	# append calls = 1290
+SimpleStrand:	        262,144	    173,718,231	0.743	# append calls = 1290
+SimpleStrand:	        524,288	    342,801,111	3.087	# append calls = 1290
+SimpleStrand:	      1,048,576	    680,966,871	7.240	# append calls = 1290
+
+@SimpleStrand, 16384M
+SimpleStrand:	            256	      4,800,471	0.039	# append calls = 1290
+SimpleStrand:	            512	      4,965,591	0.059	# append calls = 1290
+SimpleStrand:	          1,024	      5,295,831	0.073	# append calls = 1290
+SimpleStrand:	          2,048	      5,956,311	0.038	# append calls = 1290
+SimpleStrand:	          4,096	      7,277,271	0.075	# append calls = 1290
+SimpleStrand:	          8,192	      9,919,191	0.050	# append calls = 1290
+SimpleStrand:	         16,384	     15,203,031	0.085	# append calls = 1290
+SimpleStrand:	         32,768	     25,770,711	0.128	# append calls = 1290
+SimpleStrand:	         65,536	     46,906,071	0.184	# append calls = 1290
+SimpleStrand:	        131,072	     89,176,791	0.276	# append calls = 1290
+SimpleStrand:	        262,144	    173,718,231	0.764	# append calls = 1290
+SimpleStrand:	        524,288	    342,801,111	2.821	# append calls = 1290
+SimpleStrand:	      1,048,576	    680,966,871	7.260	# append calls = 1290
+
+Reached machine max
+
+
+
+
+
+Part 3: LinkStrand
+
+
+dna length = 320,160
+cutting at enzyme gaattc
+-----
+Class	                splicee	      recomb	time
+-----
+LinkStrand:	            256	        331,410	0.004	# append calls = 90
+LinkStrand:	            512	        342,930	0.003	# append calls = 90
+LinkStrand:	          1,024	        365,970	0.004	# append calls = 90
+LinkStrand:	          2,048	        412,050	0.005	# append calls = 90
+LinkStrand:	          4,096	        504,210	0.004	# append calls = 90
+LinkStrand:	          8,192	        688,530	0.003	# append calls = 90
+LinkStrand:	         16,384	      1,057,170	0.006	# append calls = 90
+LinkStrand:	         32,768	      1,794,450	0.010	# append calls = 90
+LinkStrand:	         65,536	      3,269,010	0.003	# append calls = 90
+LinkStrand:	        131,072	      6,218,130	0.004	# append calls = 90
+LinkStrand:	        262,144	     12,116,370	0.003	# append calls = 90
+LinkStrand:	        524,288	     23,912,850	0.003	# append calls = 90
+LinkStrand:	      1,048,576	     47,505,810	0.002	# append calls = 90
+LinkStrand:	      2,097,152	     94,691,730	0.006	# append calls = 90
+LinkStrand:	      4,194,304	    189,063,570	0.006	# append calls = 90
+LinkStrand:	      8,388,608	    377,807,250	0.005	# append calls = 90
+LinkStrand:	     16,777,216	    755,294,610	0.002	# append calls = 90
+LinkStrand:	     33,554,432	  1,510,269,330	0.002	# append calls = 90
+LinkStrand:	     67,108,864	  3,020,218,770	0.003	# append calls = 90
+LinkStrand:	    134,217,728	  6,040,117,650	0.003	# append calls = 90
+
+
+
+dna length = 4,639,221
+cutting at enzyme gaattc
+-----
+Class	                splicee	      recomb	time
+-----
+LinkStrand:	            256	      4,800,471	0.048	# append calls = 1290
+LinkStrand:	            512	      4,965,591	0.041	# append calls = 1290
+LinkStrand:	          1,024	      5,295,831	0.039	# append calls = 1290
+LinkStrand:	          2,048	      5,956,311	0.035	# append calls = 1290
+LinkStrand:	          4,096	      7,277,271	0.042	# append calls = 1290
+LinkStrand:	          8,192	      9,919,191	0.037	# append calls = 1290
+LinkStrand:	         16,384	     15,203,031	0.033	# append calls = 1290
+LinkStrand:	         32,768	     25,770,711	0.036	# append calls = 1290
+LinkStrand:	         65,536	     46,906,071	0.035	# append calls = 1290
+LinkStrand:	        131,072	     89,176,791	0.037	# append calls = 1290
+LinkStrand:	        262,144	    173,718,231	0.034	# append calls = 1290
+LinkStrand:	        524,288	    342,801,111	0.036	# append calls = 1290
+LinkStrand:	      1,048,576	    680,966,871	0.036	# append calls = 1290
+LinkStrand:	      2,097,152	  1,357,298,391	0.035	# append calls = 1290
+LinkStrand:	      4,194,304	  2,709,961,431	0.033	# append calls = 1290
+LinkStrand:	      8,388,608	  5,415,287,511	0.042	# append calls = 1290
+LinkStrand:	     16,777,216	 10,825,939,671	0.044	# append calls = 1290
+LinkStrand:	     33,554,432	 21,647,243,991	0.067	# append calls = 1290
+LinkStrand:	     67,108,864	 43,289,852,631	0.045	# append calls = 1290
+LinkStrand:	    134,217,728	 86,575,069,911	0.044	# append calls = 1290
