@@ -10,7 +10,7 @@ Consulted with: Efe Aras
 
 Resources Used: 
 
-	Last semesters code and some brain power and elbow work. 
+	Elbow work, book, online specifications
 
 
 Answers to Questions:
@@ -19,5 +19,4 @@ Answers to Questions:
 
 Impressions: 
 
-	I don't have any funny left over. This assignment is way
-	better this time around. 
+	It helped to draw out the full process on the whiteboard to keep track of some key variables
